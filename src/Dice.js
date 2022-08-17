@@ -7,7 +7,7 @@ export default function Dice(props){
     // stores an object to be used to determine background color
     const bgColor = {
         backgroundColor: props.isHeld ? "#59E391" : "white"
-    };
+    }
 
     return (
         // Pass callback function into eventhandler(onClick)
@@ -18,4 +18,4 @@ export default function Dice(props){
             <h2 className="dice-number">{props.value}</h2>
         </div>
     )
-};
+}
